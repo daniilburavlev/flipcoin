@@ -44,8 +44,7 @@ impl PartialEq<Self> for Utxo {
     }
 }
 
-impl Eq for Utxo {
-}
+impl Eq for Utxo {}
 
 impl Hash for Utxo {
     fn hash<H: std::hash::Hasher>(&self, state: &mut H) {

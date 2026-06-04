@@ -49,4 +49,3 @@ async fn invalid_value() {
         .unwrap();
     let _: Option<String> = db.get("key".to_string(), "test").await.unwrap();
 }
-
