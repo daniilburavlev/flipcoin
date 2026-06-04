@@ -8,7 +8,6 @@ use block::{
 use common::AppResult;
 use db::DB;
 use tx::{tx::Tx, tx_storage::TxStorage};
-use utxo::Utxo;
 
 pub struct Storage {
     block_storage: BlockStorage,
