@@ -1,0 +1,22 @@
+[package]
+name = "block"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+bs58 = { workspace = true }
+balance = { path = "../balance" }
+common = { path = "../common" }
+chrono = { workspace = true }
+db = { path = "../db" }
+num-bigint = { workspace = true }
+serde = { workspace = true }
+sha2 = { workspace = true }
+tx = { path = "../tx" }
+rs_merkle = { workspace = true }
+wallet = { path = "../wallet" }
+
+[dev-dependencies]
+tokio = { workspace = true }
+tempfile = { workspace = true }
+postcard = { workspace = true }

@@ -1,0 +1,12 @@
+[package]
+name = "storage"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+block = { path = "../block" }
+common = { path = "../common" }
+db = { path = "../db" }
+tx = { path = "../tx" }
+tracing = { workspace = true }
+utxo = { path = "../utxo" }

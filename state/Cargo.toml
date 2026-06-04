@@ -1,0 +1,20 @@
+[package]
+name = "state"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+block = { path = "../block" }
+balance = { path = "../balance" }
+common = { path = "../common" }
+chrono = { workspace = true }
+futures = { workspace = true }
+num-bigint = { workspace = true }
+pool = { path = "../pool" }
+storage = { path = "../storage" }
+serde = { workspace = true }
+tracing = { workspace = true }
+tx = { path = "../tx" }
+utxo = { path = "../utxo" }
+voting = { path = "../voting" }
+wallet = { path = "../wallet" }

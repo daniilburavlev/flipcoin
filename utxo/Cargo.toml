@@ -1,0 +1,12 @@
+[package]
+name = "utxo"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+common = { path = "../common" }
+chrono = { workspace = true }
+db = { path = "../db" }
+num-bigint = { workspace = true }
+serde = { workspace = true }
+sha2 = { workspace = true }

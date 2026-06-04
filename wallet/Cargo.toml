@@ -1,0 +1,10 @@
+[package]
+name = "wallet"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+bs58 = { workspace = true }
+common = { path = "../common" }
+libp2p = { workspace = true }
+serde_json = { workspace = true }

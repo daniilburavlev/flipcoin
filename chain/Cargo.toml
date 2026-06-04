@@ -1,0 +1,25 @@
+[package]
+name = "chain"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+block = { path = "../block" }
+common = { path = "../common" }
+chrono = { workspace = true }
+futures = { workspace = true }
+num-bigint = { workspace = true }
+pool = { path = "../pool" }
+p2p = { path = "../p2p" }
+storage = { path = "../storage" }
+state = { path = "../state" }
+serde = { workspace = true }
+tx = { path = "../tx" }
+tokio = { workspace = true }
+tokio-cron-scheduler = { workspace = true }
+tracing = { workspace = true }
+validator = { path = "../validator" }
+voting = { path = "../voting" }
+utxo = { path = "../utxo" }
+url = { workspace = true }
+wallet = { path = "../wallet" }

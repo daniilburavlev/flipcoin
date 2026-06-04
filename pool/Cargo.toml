@@ -1,0 +1,11 @@
+[package]
+name = "pool"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+common = { path = "../common" }
+futures = { workspace = true }
+serde = { workspace = true }
+tx = { path = "../tx" }
+utxo = { path = "../utxo" }

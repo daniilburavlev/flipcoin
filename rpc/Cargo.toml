@@ -1,0 +1,21 @@
+[package]
+name = "rpc"
+version = "0.1.0"
+edition = "2024"
+
+[features]
+client = []
+server = []
+
+[dependencies]
+axum = { workspace = true }
+block = { path = "../block" }
+chain = { path = "../chain" }
+common = { path = "../common" }
+pool = { path = "../pool" }
+reqwest = { workspace = true }
+serde = { workspace = true }
+tx = { path = "../tx" }
+thiserror = { workspace = true }
+tracing = { workspace = true }
+utxo = { path = "../utxo" }

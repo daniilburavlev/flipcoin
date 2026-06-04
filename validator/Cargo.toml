@@ -1,0 +1,18 @@
+[package]
+name = "validator"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+balance = { path = "../balance" }
+block = { path = "../block" }
+bs58 = { workspace = true }
+common = { path = "../common" }
+chrono = { workspace = true }
+futures = { workspace = true }
+state = { path = "../state" }
+num-bigint = { workspace = true }
+serde = { workspace = true }
+sha2 = { workspace = true }
+tx = { path = "../tx" }
+wallet = { path = "../wallet" }

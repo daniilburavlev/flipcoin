@@ -1,0 +1,60 @@
+[workspace]
+resolver = "2"
+members = [
+  "block",
+  "common",
+  "db",
+  "p2p",
+  "pool",
+  "chain",
+  "storage",
+  "tx",
+  "validator",
+  "wallet",
+  "node",
+  "state",
+  "balance",
+  "utxo",
+  "voting",
+  "rpc",
+]
+
+[workspace.dependencies]
+axum = { version = "0", features = ["macros"] }
+async-rocksdb = "0"
+bs58 = "0"
+chrono = "0"
+clap = { version = "4", features = ["derive", "string"] }
+dirs = "6"
+futures = "0"
+libp2p = { version = "0", features = [
+  "kad",
+  "secp256k1",
+  "noise",
+  "yamux",
+  "identify",
+  "ping",
+  "gossipsub",
+  "tcp",
+  "tokio",
+  "request-response",
+  "json",
+  "yamux",
+  "quic",
+] }
+num-bigint = { version = "0", features = ["serde"] }
+postcard = { version = "1", features = ["alloc"] }
+rand = "0"
+reqwest = { version = "0", features = ["json"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+sha2 = "0"
+tokio = { version = "1", features = ["full"] }
+tokio-cron-scheduler = "0"
+thiserror = "2"
+tracing = "0"
+tracing-subscriber = "0"
+tempfile = "3"
+toml = "1"
+url = "2"
+rs_merkle = "1"

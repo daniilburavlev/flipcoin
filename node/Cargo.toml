@@ -1,0 +1,32 @@
+[package]
+name = "node"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+axum = { workspace = true }
+block = { path = "../block" }
+common = { path = "../common" }
+chain = { path = "../chain" }
+clap = { workspace = true }
+dirs = { workspace = true }
+num-bigint = { workspace = true }
+pool = { path = "../pool" }
+p2p = { path = "../p2p" }
+rand = { workspace = true }
+rpc = { path = "../rpc", features = ["client", "server"] }
+serde = { workspace = true }
+serde_json = { workspace = true }
+state = { path = "../state" }
+storage = { path = "../storage" }
+tx = { path = "../tx" }
+thiserror = { workspace = true }
+tracing = { workspace = true }
+tracing-subscriber = { workspace = true }
+tokio = { workspace = true }
+toml = { workspace = true }
+utxo = { path = "../utxo" }
+wallet = { path = "../wallet" }
+
+[dev-dependencies]
+tempfile = { workspace = true }
