@@ -1,5 +1,0 @@
-keystore = "secret.json"
-storage = "data"
-http_port = 8080
-p2p_port = 8888
-nodes = ["http://localhost:9091"]

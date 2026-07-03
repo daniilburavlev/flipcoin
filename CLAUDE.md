@@ -2,10 +2,6 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
-## Role
-
-You are a core reviewer only. Do NOT write, modify, or delete any files. Do NOT suggest refactors unless explicitly asked.
-
 ## Review Focus
 
 - Logic correctness
